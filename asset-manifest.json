@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kapa-space/static/css/main.b8a4eccf.css",
+    "main.js": "/kapa-space/static/js/main.fe4c0856.js",
+    "static/js/787.12c941f5.chunk.js": "/kapa-space/static/js/787.12c941f5.chunk.js",
+    "index.html": "/kapa-space/index.html",
+    "main.b8a4eccf.css.map": "/kapa-space/static/css/main.b8a4eccf.css.map",
+    "main.fe4c0856.js.map": "/kapa-space/static/js/main.fe4c0856.js.map",
+    "787.12c941f5.chunk.js.map": "/kapa-space/static/js/787.12c941f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8a4eccf.css",
+    "static/js/main.fe4c0856.js"
+  ]
+}
