@@ -1,17 +1,33 @@
 import React from 'react';
 import './App.css';
 import Drag from './components/Drag';
-import GlassIntro from './GlassIntro';
 import Draggable from 'react-draggable';
 import { DraggableCore } from 'react-draggable';
+import { Routes, Route, Link, NavLink } from "react-router-dom";
+import Intro from './components/Intro';
+import Intro2 from './components/Intro2';
 
 
 function App() {
+  const handleDrag = (e) => {
+    console.log(e.clientX, e.clientY);
+    document.getElementById('draggg').style.left = e.clientX + 'px';
+    document.getElementById('draggg').style.top = e.clientY + 'px';
+  }
   return (
     <div className="App">
-      <Drag id="dark-pita-block" title="Dark Pita" offset={{ x: '5rem', y: '10rem' }}></Drag>
-      <Drag title="Light Pita" offset={{ x: '15rem', y: '20rem' }}></Drag>
-      <GlassIntro></GlassIntro>
+      <Routes>
+        <Route path="/yuewen" element={<Intro />} />
+        {/* <Route path="/darkpita" element={<DarkPita />}/>
+        <Route path="/jazzycozy" element={<JazzyCozy />}/>
+        <Route path="/graphics" element={<Graphics />}/>
+        <Route path="/decider" element={<Decider />}/> */}
+      </Routes>
+
+      <Drag title="Dark Pita" offset={{ x: '9rem', y: '4rem' }} target='/yuewen'></Drag>
+      <Drag title="Light Pita" offset={{ x: '22rem', y: '6rem' }}></Drag>
+      <Drag title="Light Pita" offset={{ x: '13rem', y: '4.2rem' }}></Drag>
+      <Drag title="Light Pita" offset={{ x: '18rem', y: '6rem' }}></Drag>
     </div>
   );
 }

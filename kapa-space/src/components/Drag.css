@@ -7,4 +7,18 @@
     -webkit-backdrop-filter: blur(4.6px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.handle{
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(117, 58, 82, 0.3);
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.block{
+    width: fit-content;
+    margin-right: 0 !important;
+    padding: 0;
+}
     
