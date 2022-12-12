@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import Draggable from "react-draggable";
 
 function Clear(props) {
 
