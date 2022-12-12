@@ -5,13 +5,16 @@ import Header from "./Header";
 function Decider(props) {
 
     return (
-        <div className="" id="intro">
+        <div>
+            <Header />
+            <div className="slide" id="intro">
            
-           {/* <Header /> */}
-           <div className="slide" id="intro"></div>
+                <p>🍲 Decider</p>
+            </div>
         </div>
         
+        
     );
-    }
+}
 
 export default Decider;

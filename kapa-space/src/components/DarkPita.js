@@ -1,17 +1,21 @@
 import React from "react";
-import Header from "./Header";
 import "./Intro.css";
+import ClearBtn from "./ClearBtn";
+import Header from "./Header";
 
 function DarkPita(props) {
 
     return (
-
-        <div className="slide" id="intro">
+        <div>
+            <Header />
+            <div className="slide" id="intro">
            
-            {/* <Header /> */}
+                <p>🥙 Dark Pita</p>
+            </div>
         </div>
         
+        
     );
-    }
+}
 
 export default DarkPita;

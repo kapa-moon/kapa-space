@@ -50,7 +50,6 @@ function App() {
         <Route path="/graphics" element={<Graphics />}/>
         <Route path="/decider" element={<Decider />}/>
       </Routes>
-      <Header />
     </div>
   );
   }
