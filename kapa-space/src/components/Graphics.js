@@ -1,15 +1,21 @@
 import React from "react";
 import "./Intro.css";
+import Header from "./Header";
 
 function Graphics(props) {
 
 
     return (
         <div className="slide" id="intro">
-            {/* <button className="intro-button">X</button> */}
+            {/* <Header /> */}
+        <div className="max-h-full overflow-scroll" id="intro">
+            
             <p></p>
-            <a href="https://cims.nyu.edu/~yy2889/graphics/index.html">Graphics Collection</a>
+            <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="font-bold">My Graphics Collection</a>
+        
         </div>
+        </div>
+        
         
     );
     }

@@ -4,10 +4,11 @@
     /* margin:10px; */
     padding: 7rem;
     position: absolute;
-    right: -600px;
+    right: -50rem;
     /* width: fit-content; */
-    /* max-width: 500px; */
-    width: 700px;
+    max-width: 55rem;
+    max-height: 100vh;
+    width: fit-content;
     overflow: scroll;
     height: fit-content;
     background: none;

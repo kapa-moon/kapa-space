@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import Header from "./Header";
 
 function JazzyCozy(props) {
 
