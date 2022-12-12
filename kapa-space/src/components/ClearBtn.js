@@ -9,7 +9,7 @@ function ClearBtn() {
 
         <div className="clear-btn cursor-move">
             <Draggable>
-            <div className="border border-white rounded-md text-md p-1">
+            <div className="border border-gray-600 rounded-md text-md p-1">
                 <div>
                 <span>🫧</span>
                     </div> 
