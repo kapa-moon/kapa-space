@@ -1,7 +1,7 @@
 .App{
-    /* background: linear-gradient(to bottom right,rgba(251, 232, 237, 0.822), rgb(242, 246, 199)); */
+    background: linear-gradient(to bottom right,rgba(251, 232, 237, 0.822), rgb(242, 246, 199));
     /* background-color: rgba(215, 103, 103, 0.808); */
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     /* background: linear-gradient(131deg, rgba(124, 88, 195, 0.968) 0%, rgba(120,51,92,1) 35%, rgba(179,114,5,0.6937368697478992) 63%, rgba(255,113,0,0.7609637605042017) 100%); */
     /* color: rgb(57, 59, 60); */
     color: rgb(86, 81, 81);
