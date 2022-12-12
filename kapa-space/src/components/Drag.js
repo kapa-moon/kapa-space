@@ -15,7 +15,7 @@ function Drag(props) {
               <p className="text-gray-700 text-base">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
               </p>
-              <NavLink to={props.target} className='text-sm underline'>More</NavLink> 
+              <NavLink to={props.target} className='text-sm underline' onTouch>More</NavLink> 
             </div>
           <div className="px-6 pt-4 pb-2">
           <div className="inline-grid grid-cols-3 ">
