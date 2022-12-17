@@ -5,7 +5,7 @@
     /* background: linear-gradient(131deg, rgba(124, 88, 195, 0.968) 0%, rgba(120,51,92,1) 35%, rgba(179,114,5,0.6937368697478992) 63%, rgba(255,113,0,0.7609637605042017) 100%); */
     /* color: rgb(57, 59, 60); */
     color: rgb(86, 81, 81);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.5;
@@ -14,6 +14,10 @@
     height: 100vh;
     width: 100vw;
     overflow: scroll;
+}
+.notice{
+    font-weight: 200;
+    font-size: 1rem;
 }
 
 #draggg{
@@ -25,6 +29,30 @@
 a{
     text-decoration: none;
     color: rgb(157, 99, 99);
+    width: fit-content;
 }
 
+.frame{
+    border-radius: 10px;
+}
 
+.pic-small{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 1;
+    z-index: -1;
+    /* background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(66, 66, 64)); */
+}
+
+.pic-bg{
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    z-index: -1;
+}

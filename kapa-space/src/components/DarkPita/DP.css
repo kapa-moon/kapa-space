@@ -1,0 +1,59 @@
+/* Slide from right animation */
+
+.slide{
+    /* margin:10px; */
+    padding: 7rem;
+    position: absolute;
+    right: -50rem;
+    width: fit-content;
+    /* max-width: 55rem; */
+    max-height: 100vh;
+    width: fit-content;
+    overflow: scroll;
+    height: fit-content;
+    background: none;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.2s;
+    overflow-wrap: break-word;
+
+}
+.fade-out{
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.slide::-webkit-scrollbar {
+    display: none;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(128, 78, 78);
+}
+
+.content{
+    max-width: 500px;
+    overflow-wrap: break-word;
+}
+
+.yuewen-content{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    font-weight: 300;
+}
+
+/* 
+p{
+    
+    font-weight: 400;
+} */

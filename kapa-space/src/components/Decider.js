@@ -4,17 +4,27 @@ import Header from "./Header";
 
 function Decider(props) {
 
-    return (
-        <div>
-            <Header />
-            <div className="slide" id="intro">
-           
-                <p>🍲 Decider</p>
+    if(window.innerWidth>556){
+        return (
+            <div>
+                <div className="slide" id="intro">
+                    <p>🍲 Decider</p>
+                </div>
             </div>
-        </div>
-        
-        
-    );
+            
+            
+            );
+        } else {
+            return (
+                <div>
+                    <Header />
+                    <div className="slide" id="intro">
+                   
+                        <p>🍲 Decider</p>
+                    </div>
+                </div>
+            );
+        }
 }
 
 export default Decider;

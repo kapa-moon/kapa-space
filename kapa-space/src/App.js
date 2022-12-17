@@ -4,39 +4,49 @@ import Drag from './components/Drag';
 import Draggable from 'react-draggable';
 import { DraggableCore } from 'react-draggable';
 import { Routes, Route, Link, NavLink } from "react-router-dom";
-import Intro from './components/Intro';
+// import Intro from './components/Intro';
 import Home from './components/Home';
 import ClearBtn from './components/ClearBtn';
-import JazzyCozy from './components/Jazzy';
+import Yuewen from './components/Yuewen/Yuewen';
+import JazzyCozy from './components/Jazzy/Jazzy';
 import DarkPita from './components/DarkPita';
 import Graphics from './components/Graphics';
 import Decider from './components/Decider';
 import Header from './components/Header';
+import Interview from './components/Interview';
 
+import Block from './components/Block/Block';
+import musicPic from './images/HappyMusic.png';
+import YuewenBlock from './components/Yuewen/YuewenBlock';
+import DPBlock from './components/DarkPita/DPBlock';
+import JCBlock from './components/Jazzy/JCBlock';
+import GraphBlock from './components/Graphics/GraphBlock';
+import DBlock from './components/Decider/DBlock';
 
 function App() {
-  const handleDrag = (e) => {
-    console.log(e.clientX, e.clientY);
-    document.getElementById('draggg').style.left = e.clientX + 'px';
-    document.getElementById('draggg').style.top = e.clientY + 'px';
-  }
-  if(window.innerWidth>556){
+  if(window.innerWidth>800){
   return (
     <div className="App">
       <Routes >
         <Route path="/home" element={<Home />} />
-        <Route path="/yuewen" element={<Intro />} />
+        <Route path="/yuewen" element={<Yuewen />} />
         <Route path="/darkpita" element={<DarkPita />}/>
         <Route path="/jazzycozy" element={<JazzyCozy />}/>
         <Route path="/graphics" element={<Graphics />}/>
         <Route path="/decider" element={<Decider />}/>
       </Routes>
+      <p className='notice'>Notice: some subpages are still under construction 🧐</p>
       <ClearBtn />
-      <Drag title="🤦🏻‍♀️ Yuewen" offset={{ x: '9rem', y: '4rem' }} target='/yuewen'></Drag>
-      <Drag title="🥙 Dark Pita" offset={{ x: '22rem', y: '5rem' }} target='/darkpita'></Drag>
-      <Drag title="🎹 JazzyCozy" offset={{ x: '10rem', y: '4.2rem' }} target='/jazzycozy'></Drag>
-      <Drag title="🎨 Graphics" offset={{ x: '24rem', y: '1rem' }} target='/graphics'></Drag>
-      <Drag title="🍲 Decider" offset={{ x: '20rem', y: '2rem' }} target='/decider'></Drag>
+      {/* <a href='https://kapa-moon.github.io/real-time-space/'target="_blank"><Iframe title="Inline Frame Example" className='frame'
+    width="300"
+    height="200"
+     src='https://kapa-moon.github.io/real-time-space/'></Iframe><p>Click here!</p></a> */}
+      
+      <YuewenBlock />
+      <DPBlock />
+      <JCBlock/>
+      <GraphBlock/>
+      <DBlock/>
     </div>
   );
   } else {
@@ -44,7 +54,7 @@ function App() {
     <div className="App">
       <Routes >
         <Route path="/" element={<Home />} />
-        <Route path="/yuewen" element={<Intro />} />
+        <Route path="/yuewen" element={<Yuewen />} />
         <Route path="/darkpita" element={<DarkPita />}/>
         <Route path="/jazzycozy" element={<JazzyCozy />}/>
         <Route path="/graphics" element={<Graphics />}/>

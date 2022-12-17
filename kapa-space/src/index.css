@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-
-  font-family: 'Mukta', sans-serif;
-  /* background-color: black; */
-
-}
 
 code {
   font-family: 'Mukta', sans-serif;
