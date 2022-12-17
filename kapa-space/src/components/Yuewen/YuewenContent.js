@@ -40,9 +40,9 @@ export default function YuewenContent(){
             <br />
             <a href="https://github.com/kapa-moon" target="_blank" rel="noopener noreferrer">GitHub</a>
             <br />
-            <a href="https://www.linkedin.com/in/yuewen-yang/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/yuewenyyy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <br />
-            <a href="https://www.instagram.com/yuewenyang/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
             
 
             <img src={musicPic} className="pic-bg" />
