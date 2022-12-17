@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/kapa-space/static/css/main.0ec95678.css",
-    "main.js": "/kapa-space/static/js/main.971bfd6a.js",
+    "main.css": "/kapa-space/static/css/main.c6f474fb.css",
+    "main.js": "/kapa-space/static/js/main.c557382f.js",
     "static/js/787.12c941f5.chunk.js": "/kapa-space/static/js/787.12c941f5.chunk.js",
+    "static/media/HappyMusic.png": "/kapa-space/static/media/HappyMusic.79abb3d05222ce3ee649.png",
     "index.html": "/kapa-space/index.html",
-    "main.0ec95678.css.map": "/kapa-space/static/css/main.0ec95678.css.map",
-    "main.971bfd6a.js.map": "/kapa-space/static/js/main.971bfd6a.js.map",
+    "main.c6f474fb.css.map": "/kapa-space/static/css/main.c6f474fb.css.map",
+    "main.c557382f.js.map": "/kapa-space/static/js/main.c557382f.js.map",
     "787.12c941f5.chunk.js.map": "/kapa-space/static/js/787.12c941f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ec95678.css",
-    "static/js/main.971bfd6a.js"
+    "static/css/main.c6f474fb.css",
+    "static/js/main.c557382f.js"
   ]
 }
