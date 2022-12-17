@@ -18,7 +18,7 @@ function Description(){
         <div>
             <br/>
             <div>
-                <p>A technology probe that investigate methods to empower end users in terms of contearating the dark patterns in UX/UI design.</p>
+                <p>A technology probe that investigates empowering end users in terms of contearating the dark patterns in UX/UI design.</p>
             </div>
             {/* <br></br> */}
         </div>
