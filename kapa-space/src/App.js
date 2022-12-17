@@ -35,7 +35,7 @@ function App() {
         <Route path="/graphics" element={<Graphics />}/>
         <Route path="/decider" element={<Decider />}/>
       </Routes>
-      <p className='notice'>Notice: some subpages are still under construction 🧐<br/>Laptop view is recommended for the best experience.
+      <p className='notice'>Notice: some subpages are still under construction 🧐
       </p>
       <ClearBtn />
       {/* <a href='https://kapa-moon.github.io/real-time-space/'target="_blank"><Iframe title="Inline Frame Example" className='frame'
@@ -53,6 +53,8 @@ function App() {
   } else {
     return(
     <div className="App">
+      <p className='notice'>Notice: some subpages are still under construction 🧐<br/>Laptop view is recommended for the best experience.
+      </p>
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/yuewen" element={<Yuewen />} />
