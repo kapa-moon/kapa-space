@@ -2,11 +2,11 @@
 
 .slide{
     /* margin:10px; */
-    padding: 7rem;
+    padding: 10px;
     position: absolute;
     right: -50rem;
     width: fit-content;
-    /* max-width: 55rem; */
+    max-width: 800px;
     max-height: 100vh;
     width: fit-content;
     overflow: scroll;
@@ -42,7 +42,7 @@ a{
 }
 
 .content{
-    max-width: 500px;
+    /* max-width: 500px; */
     overflow-wrap: break-word;
 }
 
