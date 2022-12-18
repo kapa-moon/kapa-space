@@ -29,11 +29,11 @@ export default function YuewenContent(){
             <p className=""><strong>So...</strong></p>
             <br />
             <p className="">
-                I found myself in the intersection of design and tech, and started to pursue a career in human-computer interaction and related fields.
+                I found myself in the intersection of design and tech,<br/> and started to pursue a career in human-computer interaction and related fields.
             </p>
-            <p className="">
-                Isn't building applications that are delightful to use the most fun thing ever?
-            </p>
+            {/* <p className="">
+                Isn't building delightful applications the most exciting thing ever?
+            </p> */}
 
             <br />
             <p className=""><strong>Some links</strong></p>

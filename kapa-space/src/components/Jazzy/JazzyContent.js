@@ -34,7 +34,7 @@ export default function JazzyContent(){
             <Break/>
 
             <p className='description'>
-                Explored building real-time interaction experience using JavaScript and p5LiveMedia.
+                Explore building 3D environment that supports multi-user interaction with JavaScript and p5LiveMedia.
             </p>
             <Break/>
             <Break/>
@@ -101,7 +101,7 @@ export default function JazzyContent(){
                     technology advances available to us?
                 </p>
                 <p className='description'>
-                    Whar are the unique affordances of each? 
+                    What are the unique affordances of each? 
                 </p>
                 <p className='description'>
                     Is 3D neccessarily better than 2D, or the other way around?
