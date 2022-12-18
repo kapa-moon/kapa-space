@@ -18,7 +18,7 @@ function DarkPita(props) {
         return (
             <div>
                 <Header />
-                <div className="slide">
+                <div className="mobile">
                     <p>🥙 Dark Pita</p>
                     <DPContent />
                 </div>

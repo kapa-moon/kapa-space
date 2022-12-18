@@ -22,7 +22,7 @@ function JazzyCozy(props) {
         return (
             <div>
                 <Header />
-                    <div className="slide" >
+                    <div className="mobile" >
                    
                     <a href="https://kapa-moon.github.io/real-time-space/" target="_blank" rel="noreferrer" className=''>🎹 JazzyCozy</a>
             

@@ -19,6 +19,8 @@ export default function Graphics(props) {
                 <div className="slide" id="">
                     
                     <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md">🎨 My Graphics Collection</a>
+                   
+                   <div className="grpahics-content">
                     <Break />
                     <Break />
                     <p className="notes">Highly recommended open the links on a laptop</p>
@@ -54,6 +56,7 @@ export default function Graphics(props) {
                     <div>
                         <img src={G2} alt="ceramic studio" className="preview"/>
                     </div>
+                    </div>
                 </div>
             </div>
             
@@ -63,11 +66,47 @@ export default function Graphics(props) {
             return (
                 <div>
                     <Header />
-                    <div className="slide" id="">
+                    <div className="mobile" id="">
                    
                         
                         <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md">🎨 My Graphics Collection</a>
-        
+                        <div className="grpahics-content">
+                    <Break />
+                    <Break />
+                    <p className="notes">Highly recommended open the links on a laptop</p>
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+                    <Break />
+
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Assignment2/index.html" target="blank" className="">🌍 Floating blocks (Raytracing 1)</a>
+                    </div>
+                    <Break />
+                    <Break />
+                    <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework3/index.html" target="blank" className="">🎠 Carousel (Raytracing 2)</a>
+                    </div>
+                    <Break />
+                    <div>
+                        <img src={G1} alt="ceramic studio" className="preview"/>
+                    </div>
+                    <Break />
+                    <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Assignment 5 Ceramic Studio (Meshes and Splines)</a>
+                    </div>
+                    <Break />
+                    <div>
+                        <img src={G2} alt="ceramic studio" className="preview"/>
+                    </div>
+                    </div>
                     </div>
                 </div>
             );
