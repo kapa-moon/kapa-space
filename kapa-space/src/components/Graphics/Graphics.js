@@ -23,7 +23,7 @@ export default function Graphics(props) {
                    <div className="grpahics-content">
                     <Break />
                     <Break />
-                    <p className="notes">Highly recommended open the links on a laptop</p>
+                    <p className="notes">Highly recommend opening the links on a laptop</p>
                     <Break />
                     <Break />
                     <Break />
@@ -73,7 +73,7 @@ export default function Graphics(props) {
                         <div className="grpahics-content">
                     <Break />
                     <Break />
-                    <p className="notes">Highly recommended open the links on a laptop</p>
+                    <p className="notes">Highly recommend opening the links on a laptop</p>
                     <Break />
                     <Break />
                     <Break />
