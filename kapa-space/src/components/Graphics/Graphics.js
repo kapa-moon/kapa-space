@@ -50,7 +50,7 @@ export default function Graphics(props) {
                     <Break />
                     <Break />
                     <div className="subtitle">
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Assignment 5 Ceramic Studio (Meshes and Splines)</a>
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
                     </div>
                     <Break />
                     <div>
@@ -100,7 +100,7 @@ export default function Graphics(props) {
                     <Break />
                     <Break />
                     <div className="subtitle">
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Assignment 5 Ceramic Studio (Meshes and Splines)</a>
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
                     </div>
                     <Break />
                     <div>
