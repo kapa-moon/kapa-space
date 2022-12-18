@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kapa-space/static/css/main.ce7dd44c.css",
-    "main.js": "/kapa-space/static/js/main.42e31066.js",
+    "main.js": "/kapa-space/static/js/main.ef69d8c9.js",
     "static/js/787.db2db0c5.chunk.js": "/kapa-space/static/js/787.db2db0c5.chunk.js",
     "static/media/Slide 16_9 - 14.png": "/kapa-space/static/media/Slide 16_9 - 14.614dbacfd37f29d28c86.png",
     "static/media/HappyMusic.png": "/kapa-space/static/media/HappyMusic.79abb3d05222ce3ee649.png",
@@ -34,11 +34,11 @@
     "static/media/Desktop - 3.png": "/kapa-space/static/media/Desktop - 3.5b4f91ee8321fdce82e8.png",
     "index.html": "/kapa-space/index.html",
     "main.ce7dd44c.css.map": "/kapa-space/static/css/main.ce7dd44c.css.map",
-    "main.42e31066.js.map": "/kapa-space/static/js/main.42e31066.js.map",
+    "main.ef69d8c9.js.map": "/kapa-space/static/js/main.ef69d8c9.js.map",
     "787.db2db0c5.chunk.js.map": "/kapa-space/static/js/787.db2db0c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7dd44c.css",
-    "static/js/main.42e31066.js"
+    "static/js/main.ef69d8c9.js"
   ]
 }
