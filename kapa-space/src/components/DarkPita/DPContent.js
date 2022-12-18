@@ -23,15 +23,30 @@ export default function DPContent(){
         <div className="dp-content content flex-left">
             
             <br />
-            <p className="subtitle">Intro</p>
+            {/* <p className="subtitle">Intro</p> */}
+            <Break/>
+            
+            <Break/>
+
+            <p className='description notes'>
+            From Design Transparency to Malleable Interfaces: Exploring End-User Interventions for Dark Patterns in UX
+
+            
+            </p>
+            <p className='description'>Yuwen Lu*, Chao Zhang*, Yuewen Yang, Yaxing Yao, Toby Jia-Jun Li</p>
+            <Break />
             <Break/>
             <Break/>
 
             <p className='notes'>
-            *Dark patterns are user interface design choices that benefit an 
+            Dark patterns are user interface design choices that benefit an 
             online service by coercing, steering, or deceiving users 
             into making unintended and potentially harmful decisions.
             </p>
+            <Break/>
+            <Break/>
+            <Break/>
+            <Break/>
             <Break/>
             <p className='description'>
                 How can we empower the end users of these interfaces to recognize, understand, and take actions upon dark patterns?
@@ -42,8 +57,11 @@ export default function DPContent(){
             <p className='description'>
                 How can end users change the interface as they like?
             </p>
-            
+
             <Break />
+            <Break />
+            <Break/>
+            
             
 
             <Break />
@@ -134,6 +152,8 @@ export default function DPContent(){
             </div>
 
             <Break />
+            <Break />
+            
         
         </div>
     );
