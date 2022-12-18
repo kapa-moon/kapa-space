@@ -7,9 +7,6 @@ import YuewenBlock from './Yuewen/YuewenBlock';
 import Intro from './Intro';
 import ClearBtn from './ClearBtn';
 import JazzyCozy from './Jazzy';
-import DarkPita from './DarkPita';
-import Graphics from './Graphics';
-import Decider from './Decider';
 import Header from './Header';
 import DPBlock from './DarkPita/DPBlock';
 import JCBlock from './Jazzy/JCBlock';
@@ -23,11 +20,11 @@ function Home() {
     <div className="App">
         <Header />
         <YuewenBlock/>
-      <DPBlock />
-      <JCBlock/>
-      <GraphBlock/>
-      <DBlock/>
-        </div>
+        <DPBlock />
+        <JCBlock/>
+        <GraphBlock/>
+        <DBlock/>
+    </div>
   );
 }
 

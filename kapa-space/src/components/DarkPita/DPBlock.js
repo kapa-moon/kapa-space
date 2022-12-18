@@ -18,7 +18,7 @@ function Description(){
         <div>
             <br/>
             <div>
-                <p>A technology probe that investigates empowering end users in terms of contearating the dark patterns in UX/UI design.</p>
+                <p>A technology probe, in the form of browser extension, that explores empowering end users by personalized modification of user interfaces.</p>
             </div>
             {/* <br></br> */}
         </div>
@@ -30,6 +30,7 @@ function Bubbles(){
     return(
         <div className="flex justify-left">
             <Bubble type="HCI Research"></Bubble>
+            <Bubble type="Dark Patterns"></Bubble>
             <Bubble type="Chrome Extension"></Bubble>
             <Bubble type="Notre Dame"></Bubble>
         </div>

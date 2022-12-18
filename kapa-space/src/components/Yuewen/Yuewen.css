@@ -18,6 +18,7 @@
     animation-delay: 0.2s;
     overflow-wrap: break-word;
 
+
 }
 .fade-out{
     opacity: 0;
@@ -47,8 +48,8 @@ a{
 }
 
 .yuewen-content{
-    font-family: 'Roboto', sans-serif;
-    font-size: small;
+    font-family: 'Mukta', sans-serif;
+    font-size: medium;
     font-weight: 300;
 }
 

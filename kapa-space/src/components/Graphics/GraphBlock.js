@@ -18,7 +18,7 @@ function Description(){
         <div>
             <br/>
             <div>
-                <p>Some projects built in the <em>Computer Graphics</em> class, covering topics such as raytracing, animation, splines, and simple interactions</p>
+                <p>Some projects built in the <em>Computer Graphics</em> class, covering topics such as raytracing, animation, splines, and interactions.</p>
             </div>
             {/* <br></br> */}
         </div>

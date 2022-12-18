@@ -1,14 +1,8 @@
 .App{
-    background: linear-gradient(to bottom right,rgba(251, 232, 237, 0.822), rgb(242, 246, 199));
-    /* background-color: rgba(215, 103, 103, 0.808); */
-    /* background: rgb(255, 255, 255); */
-    /* background: linear-gradient(131deg, rgba(124, 88, 195, 0.968) 0%, rgba(120,51,92,1) 35%, rgba(179,114,5,0.6937368697478992) 63%, rgba(255,113,0,0.7609637605042017) 100%); */
-    /* color: rgb(57, 59, 60); */
+    background: linear-gradient(to bottom right,rgba(255, 232, 238, 0.822), rgb(242, 246, 199));
     color: rgb(86, 81, 81);
-    font-family: 'Mukta', sans-serif;
     font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -17,13 +11,19 @@
 }
 .notice{
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 #draggg{
     position: relative;
     left: 10px;
     top: 40px;
+}
+
+
+.break{
+    width: 100%;
+    height: 5px;
 }
 
 a{

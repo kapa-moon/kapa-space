@@ -1,14 +1,18 @@
 import React from "react";
 import "./Jazzy.css";
 import Header from "../Header";
+import JazzyContent from "./JazzyContent";
 
 function JazzyCozy(props) {
 
-    if(window.innerWidth>556){
+    if(window.innerWidth>800){
         return (
             <div>
-                <div className="slide" id="intro">
-                    <p>🎹 JazzyCozy</p>
+                <div className="slide" >
+                    
+                <a href="https://kapa-moon.github.io/real-time-space/" target="_blank" rel="noreferrer" className=''>🎹 JazzyCozy</a>
+            
+                    <JazzyContent />
                 </div>
             </div>
             
@@ -18,9 +22,11 @@ function JazzyCozy(props) {
         return (
             <div>
                 <Header />
-                    <div className="slide" id="intro">
+                    <div className="slide" >
                    
-                        <p>🎹 JazzyCozy</p>
+                    <a href="https://kapa-moon.github.io/real-time-space/" target="_blank" rel="noreferrer" className=''>🎹 JazzyCozy</a>
+            
+                        <JazzyContent />
                     </div>
             </div>
         );

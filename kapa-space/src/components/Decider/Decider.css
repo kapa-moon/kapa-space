@@ -2,11 +2,11 @@
 
 .slide{
     /* margin:10px; */
-    padding: 7rem;
+    padding: 6rem 100px 20px 10px;
     position: absolute;
     right: -50rem;
     width: fit-content;
-    max-width: 55rem;
+    max-width: 65rem;
     max-height: 100vh;
     width: fit-content;
     overflow: scroll;
@@ -46,10 +46,9 @@ a{
     overflow-wrap: break-word;
 }
 
-.yuewen-content{
+.dp-content{
     font-family: 'Roboto', sans-serif;
-    font-size: small;
-    font-weight: 300;
+    font-size: 1rem;
 }
 
 /* 
@@ -57,3 +56,41 @@ p{
     
     font-weight: 400;
 } */
+
+.notes{
+    font-family: 'Mukta', sans-serif;
+    font-size: .8rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.description{
+    font-family: 'Mukta', sans-serif;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.t-a > .descript{
+    font-family: 'Mukta', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(112, 72, 72);
+}
+
+
+.subtitle{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.preview{
+    /* position: absolute; */
+    object-fit: fill;
+    /* top: 10rem; */
+    left: 0rem;
+    max-width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}

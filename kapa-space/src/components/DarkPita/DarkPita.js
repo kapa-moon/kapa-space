@@ -1,13 +1,14 @@
 import React from "react";
-import "./Intro.css";
-import Header from "./Header";
-
+import "./DP.css";
+import Header from "../Header";
+import DPContent from "./DPContent";
 function DarkPita(props) {
     if(window.innerWidth>800){
     return (
         <div>
-            <div className="slide" id="intro">
+            <div className="slide">
                 <p>🥙 Dark Pita</p>
+                <DPContent />
             </div>
         </div>
         
@@ -17,9 +18,9 @@ function DarkPita(props) {
         return (
             <div>
                 <Header />
-                <div className="slide" id="intro">
-               
+                <div className="slide">
                     <p>🥙 Dark Pita</p>
+                    <DPContent />
                 </div>
             </div>
         );

@@ -9,9 +9,9 @@ import Home from './components/Home';
 import ClearBtn from './components/ClearBtn';
 import Yuewen from './components/Yuewen/Yuewen';
 import JazzyCozy from './components/Jazzy/Jazzy';
-import DarkPita from './components/DarkPita';
-import Graphics from './components/Graphics';
-import Decider from './components/Decider';
+import DarkPita from './components/DarkPita/DarkPita';
+import Graphics from './components/Graphics/Graphics';
+import Decider from './components/Decider/Decider';
 import Header from './components/Header';
 import Interview from './components/Interview';
 
@@ -35,8 +35,6 @@ function App() {
         <Route path="/graphics" element={<Graphics />}/>
         <Route path="/decider" element={<Decider />}/>
       </Routes>
-      <p className='notice'>Notice: some subpages are still under construction 🧐
-      </p>
       <ClearBtn />
       {/* <a href='https://kapa-moon.github.io/real-time-space/'target="_blank"><Iframe title="Inline Frame Example" className='frame'
     width="300"
@@ -53,7 +51,7 @@ function App() {
   } else {
     return(
     <div className="App">
-      <p className='notice'>Notice: some subpages are still under construction 🧐<br/>Laptop view is recommended for the best experience.
+      <p className='notice'>🧐Laptop view is recommended for the best experience.
       </p>
       <Routes >
         <Route path="/" element={<Home />} />

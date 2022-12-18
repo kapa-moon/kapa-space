@@ -4,7 +4,7 @@ import Header from "./Header";
 
 function JazzyCozy(props) {
 
-    if(window.innerWidth>556){
+    if(window.innerWidth>800){
         return (
             <div>
                 <div className="slide" id="intro">

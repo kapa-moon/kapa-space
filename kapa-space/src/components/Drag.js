@@ -6,7 +6,7 @@ import arrow from "../images/right-arrow.png"
 
 
 function Drag(props) {
-  const x = window.innerWidth<556? 0: props.offset.x;
+  const x = window.innerWidth<800? 0: props.offset.x;
 
   return (
     <div id="props.id" className="block">
