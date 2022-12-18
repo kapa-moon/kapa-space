@@ -24,8 +24,8 @@ function Decider(props) {
                     <div className="mobile" id="intro">
                    
                         <p>🍲 Decider</p>
-                        <p className="notes">Under Construction, but here's a sneak peek on 
-                        <a href="https://github.com/agiledev-students-fall2022/final-project-team-decider" target="blank" className=""> Github</a>
+                        <p className="notes">Under Construction, but here's a sneak peek on Github.
+                        {/* <a href="https://github.com/agiledev-students-fall2022/final-project-team-decider" target="blank" className=""> Github</a> */}
                     </p>
                     </div>
                 </div>
