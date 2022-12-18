@@ -4,6 +4,7 @@ import STB2 from './images/Desktop - 2.png';
 import STB3 from './images/Desktop - 3.png';
 import STB4 from './images/Desktop - 5.png';
 import STB5 from './images/Desktop - 8.png';
+import NETFLIX_1 from './images/netf.gif';
 
 import A1  from './images/A1.png';
 import A2  from './images/A2.png';
@@ -16,7 +17,7 @@ function Break(){
     );
 }
 
-const NETFLIX_1 = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/netflix_preview_disable.gif?v=1660857216480";
+// const NETFLIX_1 = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/netflix_preview_disable.gif?v=1660857216480";
 const YTPREVIEW = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/ytb_homepage_blkpreview.gif?v=1660683589579";
 export default function DPContent(){
     return (
