@@ -10,7 +10,7 @@ export default function YuewenContent(){
             <p className=""><strong>Some Facts</strong></p>
             <br />
             <p className="">
-                Before CS/Math, I studied Global Liberal Studies at <strong>NYU Florence</strong>.
+                Before CS/Math at <strong>NYU CAS</strong>, I studied Global Liberal Studies at <strong>NYU Florence</strong>.
             </p>
             <p className="">
                 I also spent some time at <strong>NYU SH</strong> during the COVID.
