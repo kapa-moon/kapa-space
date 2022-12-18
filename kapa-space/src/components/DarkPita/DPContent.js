@@ -52,7 +52,7 @@ export default function DPContent(){
                 How can we empower the end users of these interfaces to recognize, understand, and take actions upon dark patterns?
             </p>
             <p className='description'>
-                What are the potential alternatives to the current interface? How can end users change the interface as they like?
+                What are the potential alternatives to the current interface?
             </p>
             <p className='description'>
                 How can end users change the interface as they like?
