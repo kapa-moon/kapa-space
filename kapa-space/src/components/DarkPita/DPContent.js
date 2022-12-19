@@ -6,6 +6,7 @@ import STB4 from './images/Desktop - 5.png';
 import STB5 from './images/Desktop - 8.png';
 import NETFLIX_1 from './images/netf.gif';
 
+
 import A1  from './images/A1.png';
 import A2  from './images/A2.png';
 import A3  from './images/A3.png';
@@ -16,7 +17,7 @@ function Break(){
         <div className="break"></div>
     );
 }
-
+const FB = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/reels_counterfactual.gif?v=1660790427159";
 // const NETFLIX_1 = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/netflix_preview_disable.gif?v=1660857216480";
 const YTPREVIEW = "https://cdn.glitch.global/437de514-4247-434b-b3ad-750c6fc27691/ytb_homepage_blkpreview.gif?v=1660683589579";
 export default function DPContent(){
@@ -137,7 +138,7 @@ export default function DPContent(){
                     components so that they can change them as they like.
                 </p>
                 <img src={YTPREVIEW} alt="Netflix Preview" className="preview"/>
-                <img src={NETFLIX_1} alt="Netflix Preview" className="preview"/>
+                <img src={FB} alt="Netflix Preview" className="preview"/>
                 <Break /><Break />
                 <p className='description'>
                     2-week technology probe study : 
