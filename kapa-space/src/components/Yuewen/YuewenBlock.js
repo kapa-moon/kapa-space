@@ -4,7 +4,7 @@ import Bubble from "../Bubble";
 export default function YuewenBlock() {
     return (
         <>
-    <Drag title="🤦🏻‍♀️ Yuewen" offset={{ x: '9rem', y: '4rem' }} target='/yuewen'
+    <Drag title="Yuewen Yang" offset={{ x: '9rem', y: '4rem' }} target='/yuewen'
     p={<Description/>} bubbles={<Bubbles/>}> </Drag>
         </>
     );
