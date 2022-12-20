@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kapa-space/static/css/main.ce7dd44c.css",
-    "main.js": "/kapa-space/static/js/main.d0e42064.js",
+    "main.js": "/kapa-space/static/js/main.cfaa9eaa.js",
     "static/js/787.db2db0c5.chunk.js": "/kapa-space/static/js/787.db2db0c5.chunk.js",
     "static/media/Slide 16_9 - 14.png": "/kapa-space/static/media/Slide 16_9 - 14.614dbacfd37f29d28c86.png",
     "static/media/HappyMusic.png": "/kapa-space/static/media/HappyMusic.79abb3d05222ce3ee649.png",
@@ -18,6 +18,7 @@
     "static/media/Slide 16_9 - 13.png": "/kapa-space/static/media/Slide 16_9 - 13.3ae65d75ad174cb5a74e.png",
     "static/media/Slide 16_9 - 18 (1).png": "/kapa-space/static/media/Slide 16_9 - 18 (1).556a9bb6950a9228f117.png",
     "static/media/J9.gif": "/kapa-space/static/media/J9.d3e0d224ca174675cd13.gif",
+    "static/media/room.gif": "/kapa-space/static/media/room.f31b3925f78900fd3e2b.gif",
     "static/media/J6.gif": "/kapa-space/static/media/J6.5e52fe41993a8b1f0bfc.gif",
     "static/media/Desktop - 1.png": "/kapa-space/static/media/Desktop - 1.00fd4ae1f159c2342e41.png",
     "static/media/Desktop - 2.png": "/kapa-space/static/media/Desktop - 2.5dcdc119e9e269becfd6.png",
@@ -34,11 +35,11 @@
     "static/media/Desktop - 3.png": "/kapa-space/static/media/Desktop - 3.5b4f91ee8321fdce82e8.png",
     "index.html": "/kapa-space/index.html",
     "main.ce7dd44c.css.map": "/kapa-space/static/css/main.ce7dd44c.css.map",
-    "main.d0e42064.js.map": "/kapa-space/static/js/main.d0e42064.js.map",
+    "main.cfaa9eaa.js.map": "/kapa-space/static/js/main.cfaa9eaa.js.map",
     "787.db2db0c5.chunk.js.map": "/kapa-space/static/js/787.db2db0c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7dd44c.css",
-    "static/js/main.d0e42064.js"
+    "static/js/main.cfaa9eaa.js"
   ]
 }
