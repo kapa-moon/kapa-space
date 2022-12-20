@@ -3,6 +3,7 @@ import "./Graphics.css";
 import Header from "../Header";
 import G1 from "./G1.gif";
 import G2 from "./G2.gif";
+import G3 from "./room.gif";
 
 
 function Break(){
@@ -55,6 +56,15 @@ export default function Graphics(props) {
                     <Break />
                     <div>
                         <img src={G2} alt="ceramic studio" className="preview"/>
+                    </div>
+                    <Break />
+                    <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Final2/index.html" target="blank" className="">The Room (In Progress)</a>
+                    </div>
+                    <Break />
+                    <div>
+                        <img src={G3} alt="ceramic studio" className="preview"/>
                     </div>
                     </div>
                 </div>
