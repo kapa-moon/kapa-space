@@ -4,6 +4,7 @@ import Header from "../Header";
 import G1 from "./G1.gif";
 import G2 from "./G2.gif";
 import G3 from "./room.gif";
+import G4 from "./G4.gif";
 
 
 function Break(){
@@ -19,22 +20,31 @@ export default function Graphics(props) {
             <div>
                 <div className="slide" id="">
                     
-                    <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md">🎨 My Graphics Collection</a>
-                   
+                    {/* <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md"></a> */}
+                   <h2 className="subtitle">🎨 My Graphics Collection</h2>
                    <div className="grpahics-content">
-                    <Break />
-                    <Break />
                     <p className="notes">Highly recommend opening the links on a laptop</p>
                     <Break />
                     <Break />
                     <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Final/index.html" target="blank" className="">🎁 Merry Christmas! (Raytracing 3)</a>
+                    </div>
+                    <div>
+                        <img src={G4} alt="room" className="preview"/>
+                    </div>
                     <Break />
                     <Break />
                     <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
+                    </div>
+                    <Break />
+                    <div>
+                        <img src={G2} alt="ceramic studio" className="preview"/>
+                    </div>
                     <Break />
                     <Break />
-                    <Break />
-
                     <div className="subtitle">
                         <a href="https://cims.nyu.edu/~yy2889/graphics/Assignment2/index.html" target="blank" className="">🌍 Floating blocks (Raytracing 1)</a>
                     </div>
@@ -48,24 +58,8 @@ export default function Graphics(props) {
                     <div>
                         <img src={G1} alt="ceramic studio" className="preview"/>
                     </div>
-                    <Break />
-                    <Break />
-                    <div className="subtitle">
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
-                    </div>
-                    <Break />
-                    <div>
-                        <img src={G2} alt="ceramic studio" className="preview"/>
-                    </div>
-                    <Break />
-                    <Break />
-                    <div className="subtitle">
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/Final2/index.html" target="blank" className="">The Room (In Progress)</a>
-                    </div>
-                    <Break />
-                    <div>
-                        <img src={G3} alt="ceramic studio" className="preview"/>
-                    </div>
+                    
+                    
                     </div>
                 </div>
             </div>
@@ -76,24 +70,34 @@ export default function Graphics(props) {
             return (
                 <div>
                     <Header />
-                    <div className="mobile" id="">
-                   
-                        
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md">🎨 My Graphics Collection</a>
-                        <div className="grpahics-content">
-                    <Break />
-                    <Break />
+                    <div>
+                <div className="slide" id="">
+                    
+                    {/* <a href="https://cims.nyu.edu/~yy2889/graphics/index.html" target="blank" className="text-md"></a> */}
+                   <h2 className="subtitle">🎨 My Graphics Collection</h2>
+                   <div className="grpahics-content">
                     <p className="notes">Highly recommend opening the links on a laptop</p>
                     <Break />
                     <Break />
                     <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Final/index.html" target="blank" className="">🎁 Merry Christmas! (Raytracing 3)</a>
+                    </div>
+                    <div>
+                        <img src={G4} alt="room" className="preview"/>
+                    </div>
                     <Break />
                     <Break />
                     <Break />
+                    <div className="subtitle">
+                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
+                    </div>
+                    <Break />
+                    <div>
+                        <img src={G2} alt="ceramic studio" className="preview"/>
+                    </div>
                     <Break />
                     <Break />
-                    <Break />
-
                     <div className="subtitle">
                         <a href="https://cims.nyu.edu/~yy2889/graphics/Assignment2/index.html" target="blank" className="">🌍 Floating blocks (Raytracing 1)</a>
                     </div>
@@ -107,17 +111,11 @@ export default function Graphics(props) {
                     <div>
                         <img src={G1} alt="ceramic studio" className="preview"/>
                     </div>
-                    <Break />
-                    <Break />
-                    <div className="subtitle">
-                        <a href="https://cims.nyu.edu/~yy2889/graphics/Homework5/index.html" target="blank" className="">🫖 Ceramic Studio (Meshes and Splines)</a>
+                    
+                    
                     </div>
-                    <Break />
-                    <div>
-                        <img src={G2} alt="ceramic studio" className="preview"/>
-                    </div>
-                    </div>
-                    </div>
+                </div>
+            </div>
                 </div>
             );
     }
