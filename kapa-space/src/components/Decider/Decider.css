@@ -110,3 +110,21 @@ p{
     border-radius: 10px;
     margin: 10px;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-left;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    align-items: left;
+    height: 80%; 
+}
+
+.sub{
+     height: 70%;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}

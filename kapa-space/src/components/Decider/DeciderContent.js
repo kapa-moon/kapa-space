@@ -61,30 +61,51 @@ export default function DeciderContent(){
             <Break/>
             <Break/>
             <Break/>
-            <p className='description'> Create a Group! </p>
-
-            <img src={create} alt="Decider Preview" className="preview"/>
-
-            <Break/>
-            <Break/>
-            <p className='description'> Invite your friends with a code. </p>
-            <img src={join} alt="Decider Preview" className="preview"/>
-            <Break/>
-            <Break/>
-            <p className='description'> Search/Add places to the group. </p>
-            <img src={search} alt="Decider Preview" className="preview"/>
-            <img src={add} alt="Decider Preview" className="preview"/>
+            <div className="container">
+            <div className='sub'>  
+                <p className='description'> Create a Group! </p>
+                <img src={create} alt="Decider Preview" className="preview"/>  
+            </div>
+            <div className='sub'>  
+                <p className='description'> Invite your friends with a code. </p>
+                <img src={join} alt="Decider Preview" className="preview"/>  
+            </div>
+            <div className='sub'>  
+                <p className='description'> Invite your friends with a code. </p>
+                <img src={join} alt="Decider Preview" className="preview"/>  
+            </div>
+            <div className='sub'>  
+                <p className='description'> Search/Add places to the group. </p>
+                <img src={search} alt="Decider Preview" className="preview"/>  
+            </div>
+            <div className='sub'>  
+                <Break/>
+                <Break/>
+                <Break/>
+                <Break/>
+                <Break/>
+                <img src={add} alt="Decider Preview" className="preview"/>  
+            </div>
+            <div className='sub'>  
+                <p className='description'> Vote on places. </p>
+                <img src={vote} alt="Decider Preview" className="preview"/>  
+            </div>
 
             
+
+            
+
             <Break/>
             <Break/>
-            <p className='description'> Vote on places. </p>
-            <img src={vote} alt="Decider Preview" className="preview"/>
+            <Break/>
+            
+            
+            </div>
             
 
             <Break/>
          
-                
+            <Break/>   
             <Break/>
             <Break/>
             <p className="notes">
