@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import "./Decider.css";
+import DeciderContent from "./DeciderContent";
 
 function Decider(props) {
 
@@ -9,9 +10,8 @@ function Decider(props) {
             <div>
                 <div className="slide" id="intro">
                     <p>🍲 Decider</p>
-                    <p className="notes">Under Construction, but here's a sneak peek on 
-                        <a href="https://github.com/agiledev-students-fall2022/final-project-team-decider" target="blank" className=""> Github</a>
-                    </p>
+                    
+                    <DeciderContent/>
                 </div>
             </div>
             

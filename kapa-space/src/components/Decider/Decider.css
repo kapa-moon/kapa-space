@@ -99,3 +99,14 @@ p{
     border-radius: 10px;
     margin: 10px;
 }
+
+.preview2{
+    /* position: absolute; */
+    object-fit: fill;
+    /* top: 10rem; */
+    left: 0rem;
+    max-width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}

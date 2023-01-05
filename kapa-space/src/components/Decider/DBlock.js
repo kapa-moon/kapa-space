@@ -19,7 +19,7 @@ function Description(){
             <br/>
             <div>
                 <p>
-                    A web application that helps groups of fiends find a place to hangout (or discover something new!)
+                    A mobile web app that helps groups of fiends find a place to hangout (or discover something new!)
                 </p>
                 <p style={{height: "7px"}}>{null}</p>
                 <p>
@@ -38,6 +38,7 @@ function Bubbles(){
             <Bubble type="Full-stack Web App"></Bubble>
             <Bubble type="Agile"></Bubble>
             <Bubble type="React"></Bubble>
+            <Bubble type="Node.js"></Bubble>
         </div>
     );
 }
