@@ -35,9 +35,9 @@ function Description(){
 function Bubbles(){
     return(
         <div className="flex justify-left">
-            <Bubble type="Full-stack Web App"></Bubble>
+            <Bubble type="Full stack Web App"></Bubble>
             <Bubble type="Agile"></Bubble>
-            <Bubble type="React"></Bubble>
+            <Bubble type="React.js"></Bubble>
             <Bubble type="Node.js"></Bubble>
         </div>
     );
