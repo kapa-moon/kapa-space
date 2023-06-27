@@ -16,7 +16,8 @@ function Description(){
             <div>
                 <p>"Nice to meet you!"</p>
                 <p style={{height: "10px"}}>{null}</p>
-                <p>I'm a rising senior at New York University studying Mathematics and Computer Science.</p>
+                <p>I just graduated from New York University with a degree in Math and Computer Science.
+                </p>
             </div>
         </div>
         
